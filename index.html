@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+<header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('about')">About Me</button>
+        <button onclick="showSection('education')">Educational Background</button>
+        <button onclick="showSection('experience')">Experience</button>
+        <button onclick="showSection('awards')">Awards and Achievements</button>
+        <button onclick="showSection('projects')">Projects</button>
+        <button onclick="showSection('membership')">Membership</button>
+        <button onclick="showSection('events')">Events</button>
+        <button onclick="showSection('presentations')">Poster/Paper Presentation</button>
+        <button onclick="showSection('courses')">Courses Completed</button>
+        <button onclick="showSection('contact')">Contact</button>
+    </nav>
+</header>
+
+<main id="content">
+    <section id="home" class="active">
+        <h2>Home</h2>
+        <p>Welcome to my personal website!</p>
+    </section>
+
+    <section id="about" class="hidden">
+        <h2>About Me</h2>
+        <p>I am currently pursuing B.Tech in Computer Science and Engineering with a focus on IoT at UEM New Town.</p>
+    </section>
+
+    <section id="education" class="hidden">
+        <h2>Educational Background</h2>
+        <p>Studied at Khalsa Model Senior Secondary School up to Class 12.</p>
+    </section>
+
+    <section id="experience" class="hidden">
+        <h2>Experience</h2>
+        <p>Details about my experience will be here.</p>
+    </section>
+
+    <section id="awards" class="hidden">
+        <h2>Awards and Achievements</h2>
+        <ul>
+            <li>Class 12 Facilitation Award</li>
+            <li>Youngest Businessman in the field of Transportation</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="hidden">
+        <h2>Projects</h2>
+        <p>Started a business named Essence Adornments for an economics project and earned ₹4500 within 10 days.</p>
+    </section>
+
+    <section id="membership" class="hidden">
+        <h2>Membership</h2>
+        <p>Details about my memberships will be here.</p>
+    </section>
+
+    <section id="events" class="hidden">
+        <h2>List of Events</h2>
+        <p>Attended Smart Makers Festival for 2 days at our college.</p>
+    </section>
+
+    <section id="presentations" class="hidden">
+        <h2>Poster/Paper Presentation</h2>
+        <p>Presented on Superconductivity as a physics project in front of the class.</p>
+    </section>
+
+    <section id="courses" class="hidden">
+        <h2>Courses Completed</h2>
+        <p>NPTEL Soft Skill Development course completed.</p>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact</h2>
+        <p>Phone: 9433947743</p>
+        <p>Email: <a href="mailto:arshpreetsaini716@gmail.com">arshpreetsaini716@gmail.com</a></p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

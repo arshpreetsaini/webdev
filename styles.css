@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/175/524/956/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-d8562dc820d0acd8506c415eb8e2a49a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav {
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    padding-left: 250px;
+    margin-top: 20px;
+}
+
+section {
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    display: none;
+    text-align: left;
+}
+
+section.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
